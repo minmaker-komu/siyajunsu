@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.wrap a {
+    
+    color: black;
+    width: max-content;
+    align-items: center;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.wrap .login_section{
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+/* .wrap .login_section input {
+    width: 167px;
+    height: 28px;
+} */
+.wrap .login_btn {
+    margin-top: 30px;
+}
+.login_title {
+    margin-bottom: 30px;
+}
+
+.wrap .mypage_section{
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+}
+.wrap .mypage_section input {
+    width: 167px;
+    height: 28px;
+}
+.wrap .mypage_btn {
+    margin-top: 30px;
+}
+.mypage_title {
+    margin-bottom: 30px;
+}
+
+
+.wrap .logo {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.login a{
+    font-style: normal;
+    font-size: 18px;
+}
+
+.wrap header {
+    color: black;
+    font-size: 30px;
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar nav {
+
+    width: max-content;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+
+
+}
+.navbar a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 40px;
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+}
+
+.mainimg {
+    padding-top: 200px;
+    text-align: center;
+
+
+}
+/*카피라이트*/
+.footer {
+    width: max-content;
+    font-size: small;
+    padding: 50px;
+    justify-content: center;
+    color: rgb(48, 43, 43);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.wrap .myinfo {
+    text-align: center;
+    margin: auto;
+}
+
+/* 게시판 페이지 번호 */
+.board_page {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+
+.board_page a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    border-left: 0;
+    line-height: 100%;
+}
+
+.board_page a.bt {
+    padding-top: 10px;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+}
+
+.board_page a.num {
+    padding-top: 9px;
+    font-size: 1.4rem;
+}
+
+.board_page a.num.on {
+    border-color: #000;
+    background: #000;
+    color: #fff;
+}
+
+.board_page a:first-child {
+    border-left: 1px solid #ddd;
+}
